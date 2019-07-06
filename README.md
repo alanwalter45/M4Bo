@@ -4,11 +4,16 @@
 
 Es un proyecto de software gratuito creado para la gestion de almacenes, puede ser utilizado por cualquier entidad  en caso de adaptarse al producto y el uso del mismo no involucra un pago de licencia.
 
+<img src="./assets/logotipo.png">
 
-## Colores / Temas
+## Caracteristicas
 
-* (Light) Blanco , Verde Olivo y Verde Oscuro.
-* (Dark)  Negro , Blanco y Verde
+* ### Colores / Temas
+
+    * (Light) Blanco , Verde Olivo y Verde Oscuro.
+    * (Dark)  Negro , Blanco y Verde
+
+>en actualizacion
 
 ## Instalacion de .Net Core 
 
@@ -23,8 +28,7 @@ root@debian$ dotnet --version
 
 ## Descarga Sthor
 
-Windows y Linux
-* http://github.com/alanwalter45/0.1/sthor.zip
+Windows y Linux <a href="src/sthor.zip" download>sthor.zip</a> 
 
 
 ```sh
@@ -43,18 +47,17 @@ root@debian$ curl localhost:8080
 
 ## Interfaz Programable de Aplicaciones - API
 
-La documentacion de la Interfaz Programable de Aplicaciones usado para este sistema esta detallada en http://github.com/alanwalter45/apidoc-sthor/index.html
-
-aunque se utiliza swagger para documentar, esta documentacion resulta interactiva pero muy tecnica , asi que se disponibiliza un manual de usuario en http://github.com/alanwalter45/apidoc-sthor/manual.pdf
+La documentacion de la Interfaz Programable de Aplicaciones utilizado para la construccion del sistema esta detallada
+<a href="apidoc-sthor/index.html">aqui</a> , aunque se utiliza swagger para documentar y resulta interactiva pero muy tecnica , asi que se disponibiliza un manual de usuario en <a href="src/manual.pdf" download>manual.pdf</a>
 
 ## Sugerencias y Colaboraciones
 canal en discord : https://discord.gg/AaNK56A
 <br>
 email : alanwalter45@gmail.com
 
-<br>
+<hr>
 
 > copyright@2019
-<a href="http://alanwalter45@gmail.com" target="_blank">
+<a href="http://youtube.com/alanwalter45" target="_blank">
  @alanwalter45
  </a>
