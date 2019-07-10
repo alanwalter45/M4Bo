@@ -185,10 +185,46 @@
             font-size: 0.72em;
         }
 
+        #logotipo {
+            transform: scale(1);
+        }
+
         #logotipo:hover {
             transition: all 1s;
             transform: scale(1.2);
             cursor: pointer;
+        }
+
+        @media (max-width: 1288px) {
+
+            .container,
+            .container2 {
+                width: 90%;
+            }
+
+            .container {
+                margin-left: -15px;
+                border-left: 0;
+            }
+
+            .container2 {
+                margin-top: -155px;
+                margin-left: -15px;
+            }
+
+            #descripcion {
+                font-size: 0.72em;
+            }
+        }
+
+        @media (max-width: 490px) {
+            #github {
+                margin: -5px;
+            }
+
+            #github::after {
+                border-left: 1px solid black;
+            }
         }
     </style>
 </head>
@@ -714,6 +750,10 @@
             </li>
         </ul>
 
+        <br>
+        <br>
+        <br>
+
     </div>
 
 
@@ -725,10 +765,10 @@
             el: ".container",
             methods: {
                 alerta(event, color) {
-                    
+
                 },
                 continuarLeyendo() {
-                    
+
                 }
             }
         });
