@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>STHOR</title>
+    <style>
+        img {
+            margin-top: -5px;
+            margin-bottom: 12px;
+        }
+
+        .container {
+            width: 52%;
+            margin-left: 5%;
+            padding: 0 2.5em;
+            border-left: 1px solid #f0f0f0;
+            border-right: 1px solid #f0f0f0;
+
+            float: left;
+        }
+
+        .container2 {
+            width: 30%;
+            border-right: 1px solid #f0f0f0;
+            float: left;
+            padding: 0 2.5em;
+        }
+
+        .sh {
+            -webkit-print-color-adjust: exact;
+            background: linear-gradient(to right, rgb(97, 134, 255), rgb(0, 0, 0));
+            padding: 0.5em;
+            border-radius: 0.5em;
+            margin: 0em;
+        }
+
+        video {
+            width: 33%;
+            border: 1px solid black;
+        }
+
+        .comentario {
+            color: #adff2f;
+            font-family: monospace;
+        }
+
+        .codigo {
+            color: aliceblue;
+            font-family: monospace;
+        }
+
+        #lista-usuarios-prueba {
+            margin: 0;
+            padding: 0
+        }
+
+        #lista-usuarios-prueba>li {
+            -webkit-print-color-adjust: exact;
+            /* background: linear-gradient(to right, #333, black); */
+            background: linear-gradient(to right, #f4fff8, rgb(221, 255, 210));
+            color: black;
+            list-style: none;
+            padding: 0.5em;
+            border-radius: 0.5em;
+            border: 1px solid rgb(219, 219, 219);
+        }
+
+        #lista-usuarios-prueba>li:hover {
+            background: linear-gradient(to top, #f4fff8, rgb(221, 255, 210));
+        }
+
+        #lista-usuarios-prueba>li>a {
+            color: yellow;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .right>p {
+            font-weight: bold;
+        }
+
+
+        #header {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 105px;
+            padding: 0.5em;
+            padding-left: 2.5em;
+            background: linear-gradient(to left, #27ad23, #3fa03c);
+            border-bottom: 1px solid rgb(15, 146, 26);
+            box-shadow: 0 0 5px grey;
+            z-index: 1000;
+            color: white;
+            zoom: 0.72;
+        }
+
+        footer>p {
+            -webkit-print-color-adjust: exact;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            background-color: #e7ffc1;
+            width: 100%;
+            margin: 0;
+            padding: 0.25em;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .lineaH {
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        #title {
+
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 0;
+            text-shadow: 0 0 3px black;
+            color: white;
+        }
+
+        #descripcion {
+            display: inline-block;
+            font-weight: bold;
+            color: rgb(240, 245, 242);
+            font-size: 1.2em;
+            border-radius: 0.5em;
+            padding: 0 5px;
+            margin-left: -300px;
+        }
+
+        li>strong {
+            color: rgb(0, 0, 0);
+        }
+
+        li>p>a {
+            color: black;
+            font-weight: bold;
+        }
+
+        .clearfix {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        #github {
+            float: right;
+            margin-top: -27px;
+            width: 250px;
+            height: 125px;
+            background: darkblue;
+            font-size: 1.72em;
+            text-decoration: none;
+            color: white;
+            border-left: 1px solid green;
+        }
+
+        #github:hover {
+            transition: all 1s;
+            color: greenyellow;
+            border-left: 1px solid black;
+            background: linear-gradient(to bottom, rgb(0, 114, 207), rgb(6, 6, 165));
+        }
+
+        #github::after {
+            content: "visitar el repositorio";
+            display: block;
+            text-indent: 1.7em;
+            background: white;
+            color: black;
+            font-size: 0.72em;
+        }
+
+        #logotipo:hover {
+            transition: all 1s;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="header">
+        <br>
+        <img id="logotipo" src="./assets/logotipo.png">
+
+        <p id="descripcion">SISTEMA GEN&Eacute;RICO PARA LA GESTI&Oacute;N
+            DE ALMACENES.
+
+        </p>
+
+        <a id="github" href="https://github.com/alanwalter45/sthor" target="_blank">
+            <br>
+
+            <img src="github.png" height="50px" alt="github"> Sthor
+        </a>
+
+    </div>
+
+    <div class="container">
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div id="icono"></div>
+
+        <h2>Proyecto Sthor</h2>
+
+        <p>
+            Es un proyecto de software gratuito creado para la gesti&oacute;n de almacenes.
+        </p>
+
+        <h2>Idea general del Proyecto</h2>
+
+        Canal en youtube <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-"
+            target="_blank" title="ver canal en youtube">aqui</a>.
+
+        <div class="clearfix"></div>
+
+        <h2>
+            Perfiles de acceso de prueba
+        </h2>
+        <p>Para probar las caracter&iacute;sticas se brindan las credenciales por defecto.
+        </p>
+        <ul id="lista-usuarios-prueba">
+
+            <li>
+
+                <strong>PERFIL OPERADOR</strong>
+                <p>
+                    <strong>Usuario :</strong>
+                    operador1 <br>
+                    <strong>
+                        Contrase&ntilde;a :</strong> Ope-2019now
+                    <br>
+                    <strong>Url : </strong> <a href="http://localhost:5300" target="_blank">http://localhost:5300</a>
+                </p>
+                <p>Encargado de gestionar los articulos.</p>
+
+            </li>
+            <br>
+            <li>
+                <strong>PERFIL ADMINISTRADOR</strong>
+                <p>
+                    <strong> Usuario :</strong> administrador1 <br>
+                    <strong> Contrase&ntilde;a :</strong> _ADM2/0/1/9
+                    <br>
+                    <strong>Url : </strong> <a href="http://localhost:5600" target="_blank">http://localhost:5600</a>
+                </p>
+
+
+                <p>Encargado de visualizar y supervisar la informaci&oacute;n del perfil <b>Operador</b>.</p>
+
+            </li>
+
+        </ul>
+
+
+
+        <h2> Interfaz de Programacion de Aplicaciones - API</h2>
+
+        La documentacion de la Interfaz de Programacion de Aplicaciones utilizado para la creacion de este sistema esta
+        detallada
+        <a href="http://127.0.0.1:5000/swagger/index.html" target="_blank">aqu&iacute;</a>
+
+
+        se usa swagger para la documentacion y se disponibiliza un manual de usuario
+        <a href="http://github.com/alanwalter45/apidoc-inventhor/manual.pdf">aqui</a>
+
+
+
+
+
+
+
+        <h1> INFORMACI&Oacute;N DE SOFTWARE</h1>
+
+        <h2>Arquitectura de software</h2>
+
+
+        <img width="54%" src="./assets/arquitectura.png" alt="imagen de la arquitectura utilizada en el sistema.">
+
+        <h2> Caracter&iacute;sticas de abordaje del proyecto</h2>
+        <ul>
+            <li>
+                <b> Git</b> - Sistema de Control de Versiones.
+
+            </li>
+            <li>
+                <b> Metodologia XP</b> - Programaci&oacute;n Extrema.
+            </li>
+            <li>
+                <b> Testing HTTP</b> - Postman (test de peticiones http).
+
+            </li>
+            <li>
+
+                <b> Testing Front</b> - Jasmine (test de integraci&oacute;n, unitarios).
+            </li>
+            <li>
+
+                <b> Testing Backend</b> - Xunit framework de prueba.
+            </li>
+            <li>
+                <b> Swagger </b> - Documentaci&oacute;n.
+
+            </li>
+        </ul>
+
+        <h2> Editor de C&oacute;digo</h2>
+        <ul>
+            <li>
+                Visual Studio Code.
+
+            </li>
+            <li>
+                Vim.
+
+            </li>
+        </ul>
+
+        <h2> Navegador Web</h2>
+        <ul>
+            <li>
+                Chormium +20
+
+            </li>
+            <li>
+                Chrome +15
+
+            </li>
+        </ul>
+
+        <h2> Plataforma de Desarrollo </h2>
+
+        .Net Core 2.2
+        <ul>
+            <li>
+                Lenguaje de Programaci&oacute;n C#.
+
+            </li>
+            <li>
+
+                Formato de Transferencia de Archivos JSON.
+            </li>
+        </ul>
+
+        <h2> Frontend</h2>
+        <ul>
+            <li>
+                VueJs (Javascript).
+
+            </li>
+            <li>
+                Sass (Css).
+
+            </li>
+            <li>
+                Buefy (Bulma - Css).
+
+            </li>
+        </ul>
+
+
+        <h2> Arquitectura de Software</h2>
+
+        <ul>
+            <li>
+
+                API REST :
+                <ul>
+                    <li>Cliente Servidor.</li>
+                    <li>API / Resources.</li>
+                </ul>
+
+            </li>
+            <li>
+                Componentes.
+
+            </li>
+            <li>
+                Orientado a Objetos.
+            </li>
+            <li>
+
+                Modulos EcmaScript.
+            </li>
+        </ul>
+
+
+        <br>
+        <br>
+
+        <br>
+        <footer>
+            <p>
+
+                <a href="http://youtube.com/alanwalter45" target="_blank">@alanwalter45</a>
+
+        </footer>
+    </div>
+
+    <div class="container2">
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <h2> Caracter&iacute;sticas Generales del Sistema</h2>
+
+        <ul>
+            <li>Icono y logotipo personalizables</li>
+            <li>
+                Gesti&oacute;n de Almac&eacute;n :
+                <ul>
+                    <li>
+                        10 Almacenes <b>(en el sistema)</b>.
+                    </li>
+                    <li>
+                        7 usuarios <b>(en el sistema)</b>.
+                    </li>
+                    <li>
+                        6000 logs / registros del sistema <b>(diariamente)</b>.
+                    </li>
+                    <li>
+                        5000 articulos <b>(por almacen)</b>.
+                    </li>
+                    <li>
+                        3000 proveedores <b>(en el sistema)</b>.
+                    </li>
+                    <li>
+                        3000 receptores de articulos <b>(en el sistema)</b>.
+                    </li>
+
+                </ul>
+            </li>
+            <li>
+                Alerta por colores segun cantidad en stock:
+                <ul>
+                    <li>
+
+                        ROJO sin stock.
+                    </li>
+                    <li>
+
+                        AMARILLO tiene el stock minimo.
+                    </li>
+                    <li>
+                        VERDE tiene stock suficiente.
+
+                    </li>
+                    <li>
+                        Notificaciones via email segun color (ROJO,AMARILLO,VERDE).
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                Paleta de 10 Articulos favoritos.
+            </li>
+            <li>
+
+                C&oacute;digo de Barras para los articulos.
+            </li>
+            <li>
+
+                Ubicaci&oacute;n de los articulos <b>rack / secciones doble fila</b>.
+            </li>
+            <li>
+                Resguardo de articulos ajenos <b>documentos de pruebas</b>.
+            </li>
+            <li>
+                Separar articulos por lotes <b>agrupar articulos</b>.
+
+            </li>
+            <li>
+                Archivos de autenticidad <b>documentos digitales de la adquisision de productos</b>.
+
+            </li>
+            <li>
+                Recordar completar entrega <b>cuando se realizan entregas por parte de proveedores pero no estan
+                    completas o estan da&ntilde;adas y se necesita reponer</b>.
+
+            </li>
+            <li>
+                Recordar completar reposiciones <b>cuando se realizan entregas a clientes pero no estan completas
+                    y se necesita reponer</b>.
+
+            </li>
+            <li>
+
+                Control de acceso (seguridad) al almac&eacute;n <b>planilla de asistencia</b>.
+            </li>
+            <li>
+                Parametros del sistema configurable <b>archivos de configuracion servidor y cliente</b>.
+                <br>
+                Formatos : YML , JS , JSON
+
+            </li>
+            <li>
+
+                Base de Datos Sqlite <b>(sin configuracion y portable)</b>.
+            </li>
+            <li>
+                Frontend VueJs <b>(vista/ capa de usuario)</b>.
+
+            </li>
+            <li>
+                Autenticacion basada en Tokens (JWT).
+
+            </li>
+            <li>
+                Operadores o Usuarios:
+                <ul>
+                    <li>
+                        1 Usuario por defecto (Administrador).
+
+                    </li>
+                    <li>
+                        6 Usuarios gestionables por un usuario administrador.
+
+                    </li>
+                    <li>
+
+                        Tipos de usuarios <b>Administrador y Operador</b>
+                    </li>
+                    <li>
+                        Contrasenhas modificables pero no recordables (Hash Key).
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                Valores o Resultados:
+                <ul>
+                    <li>
+                        Graficas Circulares.
+
+                    </li>
+                    <li>
+                        Comparacion Mensual.
+
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+
+                Reportes :
+                <ul>
+                    <li>
+
+                        PDF formato de impresi&oacute;n.
+                    </li>
+
+                </ul>
+            </li>
+            <li>
+                Exportaci&oacute;n de datos:
+                <ul>
+                    <li>
+
+                        XLSX - <b>Excel</b>.
+                    </li>
+                    <li>
+                        TXT - <b>Texto</b>.
+
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Metodos de inventario:
+                <ul>
+                    <li>
+
+                        PEPS <b>PRIMERO EN ENTRAR PRIMERO EN SALIR</b> FIFO
+                    </li>
+                    <li>
+
+                        UEPS <b>ULTIMO EN ENTRAR PRIMERO EN SALIR</b> LIFO
+                    </li>
+                    <li>
+                        PP <b>PRECIO PROMEDIO</b> PRO
+
+                    </li>
+                </ul>
+            </li>
+
+
+
+
+
+
+            <li>
+
+                Consultas en linea ( 1 mes ) :
+                <ul>
+                    <li>
+
+                        Por proveedor.
+                    </li>
+                    <li>
+                        Por Articulo.
+
+                    </li>
+                    <li>
+
+                        Por Almacen.
+                    </li>
+                </ul>
+            </li>
+            <li>
+
+                Respaldo y restauraci&oacute;n de Informacion (Backups).
+            </li>
+            <li>
+
+                Incluye informaci&oacute;n de Proveedeores , Receptores y Usuarios.
+            </li>
+            <li>
+                Logs de acciones realizadas (registros del sistema).
+
+            </li>
+            <li>
+
+                Idiomas Soportados
+                <ul>
+                    <li>
+                        Espa&ntilde;ol.
+
+                    </li>
+                    <li>Ingles.</li>
+                </ul>
+            </li>
+            <li>
+
+                Temas o Estilos
+                <ul>
+                    <li>
+
+                        Colores, Fuentes , Paneles
+                    </li>
+                    <li>
+                        Light / Iluminado.
+
+                    </li>
+                    <li>
+                        Dark / Oscuro.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+
+        <h2> Resoluciones de Pantalla</h2>
+
+        <ul>
+            <li>Responsive / Adaptable.</li>
+            <li>Minimo 800 x 600.</li>
+            <li>Escritorio, Tableta , Televisor.</li>
+        </ul>
+
+
+
+
+        <h2> Navegadores Web</h2>
+        <ul>
+            <li>
+
+                Opera +15
+            </li>
+            <li>
+                Google Chrome +15
+
+            </li>
+            <li>
+                Firefox +15
+
+            </li>
+        </ul>
+
+        <h2> Sistemas Operativos
+        </h2>
+        <ul>
+            <li>
+
+                Windows 7 , 8 , 10 64bit.
+            </li>
+            <li>
+                Debian 9, Ubuntu 18, Elementary Loki 64bit.
+
+            </li>
+        </ul>
+
+    </div>
+
+
+    <script src="./assets/vue.js"></script>
+
+    <script>
+
+        var app = new Vue({
+            el: ".container",
+            methods: {
+                alerta(event, color) {
+                    
+                },
+                continuarLeyendo() {
+                    
+                }
+            }
+        });
+
+    </script>
+</body>
+
+</html>
