@@ -5,6 +5,12 @@ Es un proyecto de software gratuito creado para la gestion de almacenes.
 
 <img src="./assets/logotipo.png">
 
+## Licencia de Software
+
+<img width="100px" src="./assets/coffeeware-badge.png">
+
+Leer <a href="./LICENSE.md">licencia</a>
+
 ## Caracteristicas generales del sistema
 
 * Icono y Logotipo personalizables.
@@ -80,18 +86,18 @@ Antes de continuar verificar que se tiene instalado .Net Core 2.2 en <a href="ht
 
 ```sh
 # verficar version instalada
-root@debian$ dotnet --version
+root@debian/stror: dotnet --version
 2.2.203
 
 # Desde la ruta de descarga abrir la terminal :
 # Ejcutar como un proceso
-root@debian/sthor0.1$ dotnet server.dll 
+root@debian/sthor: dotnet server.dll 
 
 # O si deseas Ejecutar con el gestor de modulos PM2 usa
-root@debian/sthorv0.1$ pm2 start "dotnet server.dll" --name tu_aplicacion 
+root@debian/sthor: pm2 start "dotnet server.dll" --name sthor_1 
 
 # verificar el aplicativo
-root@debian$ curl localhost:8080
+root@debian: curl localhost:8080
 ```
 
 
