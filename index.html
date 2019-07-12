@@ -60,7 +60,6 @@
 
         #lista-usuarios-prueba>li {
             -webkit-print-color-adjust: exact;
-            /* background: linear-gradient(to right, #333, black); */
             background: linear-gradient(to right, #f4fff8, rgb(221, 255, 210));
             color: black;
             list-style: none;
@@ -162,7 +161,7 @@
             margin-top: -27px;
             width: 250px;
             height: 125px;
-            background: darkblue;
+            background: #02690b;
             font-size: 1.72em;
             text-decoration: none;
             color: white;
@@ -173,11 +172,11 @@
             transition: all 1s;
             color: greenyellow;
             border-left: 1px solid black;
-            background: linear-gradient(to bottom, rgb(0, 114, 207), rgb(6, 6, 165));
+            background: linear-gradient(to bottom, #02690b, rgb(32, 165, 6));
         }
 
         #github::after {
-            content: "visitar el repositorio";
+            content: "visitar repositorio";
             display: block;
             text-indent: 1.7em;
             background: white;
@@ -255,6 +254,7 @@
         <br>
         <br>
         <br>
+        <br>
 
         <div id="icono"></div>
 
@@ -268,71 +268,6 @@
         <img width="100px" src="./assets/coffeeware-badge.png">
         <br>
         Leer licencia <a href="./LICENSE.md">aqui</a>.
-
-        <h2>Idea general del Proyecto</h2>
-
-        Canal en youtube <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-"
-            target="_blank" title="ver canal en youtube">aqui</a>.
-
-        <div class="clearfix"></div>
-
-        <h2>
-            Perfiles de acceso de prueba
-        </h2>
-        <p>Para probar las caracter&iacute;sticas se brindan las credenciales por defecto.
-        </p>
-        <ul id="lista-usuarios-prueba">
-
-            <li>
-
-                <strong>PERFIL OPERADOR</strong>
-                <p>
-                    <strong>Usuario :</strong>
-                    operador1 <br>
-                    <strong>
-                        Contrase&ntilde;a :</strong> Ope-2019now
-                    <br>
-                    <strong>Url : </strong> <a href="http://localhost:5300" target="_blank">http://localhost:5300</a>
-                </p>
-                <p>Encargado de gestionar los articulos.</p>
-
-            </li>
-            <br>
-            <li>
-                <strong>PERFIL ADMINISTRADOR</strong>
-                <p>
-                    <strong> Usuario :</strong> administrador1 <br>
-                    <strong> Contrase&ntilde;a :</strong> _ADM2/0/1/9
-                    <br>
-                    <strong>Url : </strong> <a href="http://localhost:5600" target="_blank">http://localhost:5600</a>
-                </p>
-
-
-                <p>Encargado de visualizar y supervisar la informaci&oacute;n del perfil <b>Operador</b>.</p>
-
-            </li>
-
-        </ul>
-
-
-
-        <h2> Interfaz de Programacion de Aplicaciones - API</h2>
-
-        La documentacion de la Interfaz de Programacion de Aplicaciones utilizado para la creacion de este sistema esta
-        detallada
-        <a href="http://127.0.0.1:5000/swagger/index.html" target="_blank">aqu&iacute;</a>
-
-
-        se usa swagger para la documentacion y se disponibiliza un manual de usuario
-        <a href="http://github.com/alanwalter45/apidoc-inventhor/manual.pdf">aqui</a>
-
-
-
-
-
-
-
-        <h1> INFORMACI&Oacute;N DE SOFTWARE</h1>
 
         <h2>Arquitectura de software</h2>
 
@@ -447,9 +382,30 @@
         </ul>
 
 
-        <br>
+
+
+        <h2>Idea general del Proyecto</h2>
+
+        Canal en youtube <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-"
+            target="_blank" title="ver canal en youtube">aqui</a>.
+
+        <div class="clearfix"></div>
+
+        <h2> Documentaci&oacute;n</h2>
+
+        La documentacion de la Interfaz de Programacion de Aplicaciones utilizado para la creacion de este sistema esta
+        detallada
+        <a href="http://127.0.0.1:5000/swagger/index.html" target="_blank">aqu&iacute;</a>
+
         <br>
 
+        se usa swagger para la documentacion y se disponibiliza un manual de usuario
+        <a href="http://github.com/alanwalter45/apidoc-inventhor/manual.pdf">aqui</a>
+
+
+        <br>
+        <br>
+<br>
         <br>
         <footer>
             <p>
@@ -462,6 +418,7 @@
     <div class="container2">
 
 
+        <br>
         <br>
         <br>
         <br>
@@ -755,6 +712,13 @@
             </li>
         </ul>
 
+        <hr>
+        
+        <h2>Comentarios? Preguntas? Preocupaciones?</h2>
+        canal en discord : <a href="https://discord.gg/AaNK56A">https://discord.gg/AaNK56A</a> 
+        <br>
+        email : <a href="alanwalter45@gmail.com">alanwalter45@gmail.com</a> 
+
         <br>
         <br>
         <br>
@@ -769,12 +733,6 @@
         var app = new Vue({
             el: ".container",
             methods: {
-                alerta(event, color) {
-
-                },
-                continuarLeyendo() {
-
-                }
             }
         });
 
