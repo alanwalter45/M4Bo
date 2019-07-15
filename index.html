@@ -131,7 +131,7 @@
             color: white;
         }
 
-        #descripcion {
+        /*  #descripcion {
             display: inline-block;
             font-weight: bold;
             color: rgb(240, 245, 242);
@@ -139,7 +139,7 @@
             border-radius: 0.5em;
             padding: 0 5px;
             margin-left: -300px;
-        }
+        } */
 
         li>strong {
             color: rgb(0, 0, 0);
@@ -159,7 +159,7 @@
         #github {
             float: right;
             margin-top: -27px;
-            width: 250px;
+            width: 180px;
             height: 125px;
             background: #02690b;
             font-size: 1.72em;
@@ -176,12 +176,20 @@
         }
 
         #github::after {
-            content: "visitar repositorio";
+            content: "Sthor";
             display: block;
-            text-indent: 1.7em;
+            text-indent: 2.9em;
             background: white;
             color: black;
             font-size: 0.72em;
+        }
+
+        #github:hover::after {
+            background: yellow;
+        }
+
+        #github>img{
+            margin-left: 1em;
         }
 
         #logotipo {
@@ -211,9 +219,6 @@
                 margin-left: -15px;
             }
 
-            #descripcion {
-                font-size: 0.72em;
-            }
         }
 
         @media (max-width: 490px) {
@@ -234,14 +239,9 @@
         <br>
         <img id="logotipo" src="./assets/logotipo.png">
 
-        <p id="descripcion">SISTEMA GEN&Eacute;RICO PARA LA GESTI&Oacute;N
-            DE ALMACENES.
-
-        </p>
-
         <a id="github" href="https://github.com/alanwalter45/sthor" target="_blank">
             <br>
-            <img src="./assets/github.png" height="50px" alt="github"> Sthor
+            <img src="./assets/github.png" height="50px" alt="github">
         </a>
 
     </div>
@@ -261,20 +261,20 @@
         <h2>Proyecto Sthor</h2>
 
         <p>
-            Es un proyecto de software gratuito creado para la gesti&oacute;n de almacenes.
+            Sistema gen&eacute;rico gratuito para la gesti&oacute;n de almacenes.
         </p>
-
-        <h2>Licencia de sotware</h2>
-        <img width="100px" src="./assets/coffeeware-badge.png">
-        <br>
-        Leer licencia <a href="./LICENSE.md">aqui</a>.
 
         <h2>Idea general del proyecto</h2>
 
-        Canal en youtube <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-"
-            target="_blank" title="ver canal en youtube">aqui</a>.
+        youtube <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank"
+            title="ver canal en youtube">aqui</a>.
 
         <div class="clearfix"></div>
+
+        <h2>Licencia de software</h2>
+        <img width="100px" src="./assets/coffeeware-badge.png">
+        <br>
+        Leer licencia <a href="./LICENSE.md">aqui</a>.
 
 
         <h2>Esquema general del software</h2>
@@ -314,11 +314,15 @@
         <h2> Editor de C&oacute;digo</h2>
         <ul>
             <li>
-                Visual Studio Code.
+
+                <a href="https://code.visualstudio.com" target="_blank">
+                    Visual Studio Code.</a>
 
             </li>
             <li>
-                Vim.
+                <a href="https://www.vim.org" target="_blank">
+                    Vim.
+                </a>
 
             </li>
         </ul>
@@ -326,42 +330,60 @@
         <h2> Navegador Web</h2>
         <ul>
             <li>
-                Chromium +25
+                <a href="https://www.chromium.org/" target="_blank">
+                    Chromium +25
+                </a>
 
             </li>
             <li>
-                Chrome +25
+                <a href="https://www.google.com/intl/es-419/chrome/" target="_blank">
+
+                    Chrome +25\
+                </a>
+
 
             </li>
         </ul>
 
         <h2> Plataforma de Desarrollo </h2>
 
-        .Net Core 2.2
+
         <ul>
             <li>
-                Lenguaje de Programaci&oacute;n C#.
+                <a href="https://dotnet.microsoft.com" target="_blank">
+                    .Net Core
+                </a>
 
             </li>
             <li>
+                <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/" target="_blank">
+                    Lenguaje de Programaci&oacute;n C#.
+                </a>
 
-                Formato de Transferencia de Archivos JSON.
+            </li>
+            <li>
+                <a href="https://www.json.org/" target="_blank">
+                    Formato de Transferencia de Archivos JSON.
+                </a>
             </li>
         </ul>
 
         <h2> Frontend</h2>
         <ul>
             <li>
-                VueJs (Javascript).
-
+                <a href="https://vuejs.org/" target="_blank">
+                    VueJs (Javascript).
+                </a>
             </li>
             <li>
-                Sass (Css).
-
+                <a href="https://sass-lang.com/" target="_blank">
+                    Sass (Css).
+                </a>
             </li>
             <li>
-                Buefy (Bulma - Css).
-
+                <a href="https://buefy.org/" target="_blank">
+                    Buefy (Bulma - Css).
+                </a>
             </li>
         </ul>
 
@@ -708,7 +730,7 @@
         <ul>
             <li>
 
-                Windows 7 , 8 , 10  / 64bit.
+                Windows 7 , 8 , 10 / 64bit.
             </li>
             <li>
                 Debian 9, Ubuntu 18, Elementary Loki, Mint 17 / 64bit.
@@ -722,7 +744,7 @@
         canal en discord : <a href="https://discord.gg/AaNK56A">https://discord.gg/AaNK56A</a>
         <br>
         email : <a href="alanwalter45@gmail.com">alanwalter45@gmail.com</a>
-        
+
 
         <br>
         <br>

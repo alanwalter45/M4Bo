@@ -1,16 +1,13 @@
 <img src="./assets/logotipo.png">
 
 # Proyecto Sthor
-Es un proyecto de software gratuito creado para la gestion de almacenes.
+Sistema generico gratuito para la gestion de almacenes.
 
+## Idea general del proyecto
 
-## Licencia de Software
+youtube : [youtube.com/alanwalter45/sthor][0]
 
-<img width="100px" src="./assets/coffeeware-badge.png">
-
-Leer <a href="./LICENSE.md">licencia</a>
-
-## Caracteristicas generales del sistema
+## Esquema general del software
 
 * Icono y Logotipo personalizables.
 * Gestion de Almacen :
@@ -93,16 +90,20 @@ root@debian/sthor: pm2 start "dotnet server.dll" --name sthor_1
 root@debian: curl localhost:8080
 ```
 
+## Licencia de software
+
+<img width="100px" src="./assets/coffeeware-badge.png">
+
+Leer licencia <a href="./LICENSE.md">aqui</a>.
 
 ## Documentacion
 
 La documentacion de la API utilizada para la construccion del sistema esta detallada <a href="apidoc-sthor/index.html">aqui</a>  
 Se utiliza swagger para documentar y se disponibiliza un manual de usuario <a href="src/manual.pdf" download>aqui</a>.
 
+
 ## Comentarios? Preguntas? Preocupaciones?
 canal en discord : https://discord.gg/AaNK56A
-<br>
-youtube : [youtube.com/alanwalter45/sthor][0]
 <br>
 email : alanwalter45@gmail.com
 
