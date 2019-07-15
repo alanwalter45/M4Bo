@@ -1,6 +1,6 @@
-# Proyecto Sthor
 <img src="./assets/logotipo.png">
 
+# Proyecto Sthor
 Es un proyecto de software gratuito creado para la gestion de almacenes.
 
 
@@ -71,20 +71,14 @@ Leer <a href="./LICENSE.md">licencia</a>
         * Black / Oscuro
 * Incluye informacion de Proveedores, Receptores y Usuarios.
 
-## Arquitectura de Software
-
-<img width="600px" src="assets/arquitectura.png">
 
 ## Descarga de Sthor
 
-Sthor es distribuido en formato zip <a href="src/sthor.zip" download>aqui</a> .
-
-## Plataforma de desarrollo .Net Core 
-
-Antes de continuar verificar que se tiene instalado .Net Core 2.2 en <a href="https://dotnet.microsoft.com/download">microsoft/download</a>
+Sthor es distribuido en formato zip <a href="src/sthor.zip" download>aqui</a>.
 
 ```sh
-# verficar version instalada
+# Descarga .Net Core 2.2 en https://dotnet.microsoft.com/download
+# Verificar version instalada
 root@debian/stror: dotnet --version
 2.2.203
 
@@ -108,4 +102,8 @@ Se utiliza swagger para documentar y se disponibiliza un manual de usuario <a hr
 ## Comentarios? Preguntas? Preocupaciones?
 canal en discord : https://discord.gg/AaNK56A
 <br>
+youtube : [youtube.com/alanwalter45/sthor][0]
+<br>
 email : alanwalter45@gmail.com
+
+[0]:https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-
