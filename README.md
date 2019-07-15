@@ -7,7 +7,7 @@ Sistema generico gratuito para la gestion de almacenes.
 
 youtube : [youtube.com/alanwalter45/sthor][0]
 
-## Esquema general del software
+## Caracteristicas generales del sistema
 
 * Icono y Logotipo personalizables.
 * Gestion de Almacen :
