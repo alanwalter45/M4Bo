@@ -4,11 +4,17 @@
 
 ## Idea general del proyecto
 
-* github page  : [sthor][1]
+* Github page  : [sthor][1]
 
-* canal youtube : [youtube.com/alanwalter45/sthor][0]
+* Canal youtube : [youtube.com/alanwalter45/sthor][0]
 
-## Caracteristicas generales del sistema
+## Licencia de software
+
+<img width="100px" src="./assets/coffeeware-badge.png">
+
+Leer licencia <a href="./LICENSE.md">aqui</a>.
+
+## Caracteristicas generales
 
 * Icono y Logotipo personalizables.
 * Gestion de Almacen :
@@ -67,38 +73,33 @@
     * Colores, fuentes , paneles
         * Light / Iluminado
         * Black / Oscuro
-* Incluye informacion de Proveedores, Receptores y Usuarios.
 
-## Licencia de software
 
-<img width="100px" src="./assets/coffeeware-badge.png">
+## Instalacion
 
-Leer licencia <a href="./LICENSE.md">aqui</a>.
+Descarga la pataforma que necesites :
 
-## Requisitos de sistema
+* <a href="src/sthor.zip" download>Windows</a> 64bit.
 
+* <a href="src/sthor.zip" download>Linux</a> 64bit.
+
+
+Descomprima el archivo y abra la terminal desde la ruta descomprimida
+
+```sh
+# ejecutar STHOR
+root@debian:~/sthor$ ./sthor
+# verificar el aplicativo usando el folder SHORTCUTS o con el comando CURL.
+root@debian:~/sthor$ curl localhost:5000
+```
+
+Requisitos de sistema
 
 ```sh
 # instalacion de PM2 https://www.npmjs.com/package/pm2
 # verificar instalacion de PM2
 root@debian:~/sthor$ pm2 --version # ...PM2 opcional
 ```
-
-## Descarga Sthor
-Formato zip <a href="src/sthor.zip" download>aqui</a>.
-
-```sh
-# ejecutar server STHOR
-root@debian:~/sthor$ ./sthor
-# verificar el aplicativo usando el folder shortcuts o con el comando Curl.
-root@debian:~/sthor$ curl localhost:5000
-```
-
-## Documentacion
-
-La documentacion de la API utilizada para la construccion del sistema esta detallada <a href="apidoc-sthor/index.html">aqui</a>  
-Se utiliza swagger para documentar y se disponibiliza un manual de usuario <a href="src/manual.pdf" download>aqui</a>.
-
 
 ## Comentarios? Preguntas? Preocupaciones?
 canal en discord : https://discord.gg/AaNK56A
