@@ -1,11 +1,12 @@
 <img src="./assets/logotipo.png">
 
-# Proyecto Sthor
-Sistema generico gratuito para la gestion de almacenes.
+## Sistema generico para la gestion de almacenes.
 
 ## Idea general del proyecto
 
-youtube : [youtube.com/alanwalter45/sthor][0]
+* github page  : [sthor][1]
+
+* canal youtube : [youtube.com/alanwalter45/sthor][0]
 
 ## Caracteristicas generales del sistema
 
@@ -68,33 +69,30 @@ youtube : [youtube.com/alanwalter45/sthor][0]
         * Black / Oscuro
 * Incluye informacion de Proveedores, Receptores y Usuarios.
 
-
-## Descarga de Sthor
-
-Sthor es distribuido en formato zip <a href="src/sthor.zip" download>aqui</a>.
-
-```sh
-# Descarga .Net Core 2.2 en https://dotnet.microsoft.com/download
-# Verificar version instalada
-root@debian/stror: dotnet --version
-2.2.203
-
-# Desde la ruta de descarga abrir la terminal :
-# Ejcutar como un proceso
-root@debian/sthor: dotnet server.dll 
-
-# O si deseas Ejecutar con el gestor de modulos PM2 usa
-root@debian/sthor: pm2 start "dotnet server.dll" --name sthor_1 
-
-# verificar el aplicativo
-root@debian: curl localhost:8080
-```
-
 ## Licencia de software
 
 <img width="100px" src="./assets/coffeeware-badge.png">
 
 Leer licencia <a href="./LICENSE.md">aqui</a>.
+
+## Requisitos de sistema
+
+
+```sh
+# instalacion de PM2 https://www.npmjs.com/package/pm2
+# verificar instalacion de PM2
+root@debian:~/sthor$ pm2 --version # ...PM2 opcional
+```
+
+## Descarga Sthor
+Formato zip <a href="src/sthor.zip" download>aqui</a>.
+
+```sh
+# ejecutar server STHOR
+root@debian:~/sthor$ ./sthor
+# verificar el aplicativo usando el folder shortcuts o con el comando Curl.
+root@debian:~/sthor$ curl localhost:5000
+```
 
 ## Documentacion
 
@@ -108,3 +106,4 @@ canal en discord : https://discord.gg/AaNK56A
 email : alanwalter45@gmail.com
 
 [0]:https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-
+[1]:https://alanwalter45.github.io/sthor
