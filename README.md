@@ -1,81 +1,91 @@
 <img src="./assets/logotipo.png">
 
-## Sistema generico para la gestion de almacenes.
 
 ## Idea general del proyecto
 
+Sistema gen&eacute;rico para la gestion de almacenes.
+
 * Github page  : [sthor][1]
 
-* Canal youtube : [youtube.com/alanwalter45/sthor][0]
+* Canal de youtube : [youtube.com/alanwalter45][0]
 
-## Licencia de software
+## Caracter&iacute;sticas
 
-<img width="100px" src="./assets/coffeeware-badge.png">
+* Licencia de software : <a href="./LICENSE.md">coffeeware</a>.
 
-Leer licencia <a href="./LICENSE.md">aqui</a>.
+* Git - Sistema de Control de Versiones.
 
-## Caracteristicas generales
+* Metodologia XP - Programaci&oacute;n Extrema.
 
-* Icono y Logotipo personalizables.
-* Gestion de Almacen :
-    * 10 Almacenes <code>(en el sistema)</code>.
-    * 7 Usuarios <code>(en el sistema)</code>.
-    * 6000 Logs / registros del sistema <code>(diariamente)</code>.
-    * 5000 Articulos <code>(por almacen)</code>.
-    * 3000 Proveedores <code>en el sistema</code>.
-    * 3000 Receptores de articulos <code>(en el sistema)</code>.
-* Alerta por colores segun cantidad en stock :
-    * ROJO sin Stock.
-    * AMARILLO tiene el stock minimo.
-    * VERDE tiene stock suficiente.
-    * Notificaciones via email segun color (ROJO, AMARILLO , VERDE).
-* Paleta de 10 Articulos favoritos.
-* Codigo de Barras para los articulos.
-* Ubicacion de los articulos <code>rack/secciones doble fila</code>.
-* Resguardo de articulos ajenos <code>documentos de pruebas</code>.
-* Separar articulos por lotes <code>agrupar articulos</code>.
-* Archivos de autenticidad <code>documentos digitales de la adquisicion de articulos</code>.
-* Recordar completar entrega <code>cantidad imcompleta de articulos</code>.
-* Recordar completar reposiciones <code>reponer articulos a receptores de articulos</code>.
-* Control de acceso (seguridad) al almacen <code>planilla de asistencia</code>.
-* Parametros del sistema configurable <code>(archivos de configuracion servidor y cliente)</code>.
-    * Formatos : YML , JS , JSON
-* Base de Datos SQLITE <code><code>(sin configuracion y portable)</code></code>.
-* Frontend VUEJS <code>(capa de usuario)</code>.
-* Autenticacion basada en Tokens (JWT).
-* Operadores o Usuarios :
-    * 1 Usuario por defecto <code>(Administrador)</code>.
-    * 6 Usuarios gestionables por un usuario administrador.
-    * Tipos de usuarios <code>(Administrador, Operador)</code>
-    * Contrasenas modificables pero no recordables <code>(Hashes)</code>.
-* Valores o Resultados :
-    * Graficas Circulares.
-    * Comparacion Mensual.
-* Reportes :
-    * PDF formato de impresion.
-*Enportacion de datos :
-    * XLSX - Excel.
-    * TXT - Texto.
-* Metodos de inventario:
-    * PEPS (PRIMERO EN ENTRAR PRIMERO EN SALIR) FIFO.
-    * UEPS (ULTIMO EN ENTRAR PRIMERO EN SALIR) LIFO.
-    * PP (PRECIO PROMEDIO) PRO.
-* Consultas en linea (1 periodo) :
-    * Por Proveedor.
-    * Por Articulo.
-    * Por Almacen.
-* Respaldo y restauracion de informacion (Backups).
-* Logs de acciones realizadas <code>(registros del sistema)</code>.
-* Idiomas Soportados
-    * Espanol.
-    * Ingles.
-* Temas o Estilos 
-    * Colores, fuentes , paneles
-        * Light / Iluminado
-        * Black / Oscuro
+* Testing
 
+    *  HTTP - Postman (test de peticiones http).
 
-## Instalacion
+    *  Jasmine (test de integraci&oacute;n, unitarios).
+
+    *  Xunit framework de prueba.
+
+    *  Swagger - Documentaci&oacute;n.
+
+*  <a href="https://dotnet.microsoft.com" target="_blank">
+                    Plataforma de desarrollo .Net Core
+       </a>
+
+*  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/" target="_blank">
+                    Lenguaje de Programaci&oacute;n C#.
+       </a>
+
+*  <a href="https://www.json.org/" target="_blank">
+                    Formato de Transferencia de Archivos JSON.
+       </a>
+
+*  Editor de C&oacute;digo
+
+    * <a href="https://code.visualstudio.com" target="_blank">
+                            Visual Studio Code.</a>
+    * <a href="https://www.vim.org" target="_blank">
+                            Vim.
+          </a>
+
+* Navegador Web
+        
+    * <a href="https://www.opera.com/" target="_blank">
+                            Opera
+          </a>
+
+    * <a href="https://www.brave.com" target="_blank">
+                            Brave (Mobile)
+          </a>
+
+* Frontend
+
+    * <a href="https://vuejs.org/" target="_blank">
+                            VueJs (Javascript).
+          </a>
+
+    * <a href="https://sass-lang.com/" target="_blank">
+                            Sass (Css).
+          </a>
+
+    * <a href="https://buefy.org/" target="_blank">
+                            Buefy (Bulma - Css).
+          </a>
+
+* Arquitectura de Software
+
+    * API REST :
+
+        * Cliente Servidor.
+
+        * API / Resources.
+
+    * Componentes.
+
+    * Orientado a Objetos.
+
+    * Modulos / Paquetes.
+
+## Instalaci&oacute;n
 
 Descarga la pataforma que necesites :
 
@@ -102,9 +112,10 @@ root@debian:~/sthor$ pm2 --version # ...PM2 opcional
 ```
 
 ## Comentarios? Preguntas? Preocupaciones?
-canal en discord : https://discord.gg/AaNK56A
+mensajes directos en twitter: [@alanwalter45][2]
 <br>
 email : alanwalter45@gmail.com
 
 [0]:https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-
 [1]:https://alanwalter45.github.io/sthor
+[2]:https://twitter.com/alanwalter45
