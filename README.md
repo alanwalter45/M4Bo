@@ -3,7 +3,7 @@
 
 ## Idea general del proyecto
 
-Sistema gen&eacute;rico para la gestion de almacenes.
+Sistema gen&eacute;rico para la gesti&oacute;n de almacenes.
 
 * Github page  : <a href="https://alanwalter45.github.io/sthor" target="_blank">sthor</a>
 
@@ -12,20 +12,6 @@ Sistema gen&eacute;rico para la gestion de almacenes.
 ## Caracter&iacute;sticas
 
 * Licencia de software : <a href="./LICENSE.md">coffeeware</a>.
-
-* Git - Sistema de Control de Versiones.
-
-* Metodologia XP - Programaci&oacute;n Extrema.
-
-* Testing
-
-    *  HTTP - Postman (test de peticiones http).
-
-    *  Jasmine (test de integraci&oacute;n, unitarios).
-
-    *  Xunit framework de prueba.
-
-    *  Swagger - Documentaci&oacute;n.
 
 *  <a href="https://dotnet.microsoft.com" target="_blank">
                     Plataforma de desarrollo .Net Core
@@ -85,18 +71,28 @@ Sistema gen&eacute;rico para la gestion de almacenes.
 
     * Modulos / Paquetes.
 
+* Git - Sistema de Control de Versiones.
+
+* Metodologia XP - Programaci&oacute;n Extrema.
+
+* Testing
+
+    *  HTTP - Postman (test de peticiones http).
+
+    *  Jasmine (test de integraci&oacute;n, unitarios).
+
+    *  Xunit framework de prueba.
+
+    *  Swagger - Documentaci&oacute;n.
+
 ## Instalaci&oacute;n
 
-Descarga la pataforma que necesites :
-
-* <a href="src/sthor.zip" download>Windows</a> 64bit.
-
-* <a href="src/sthor.zip" download>Linux</a> 64bit.
+Descarga el archivo comprimido para la plataforma que necesites : <a href="src/sthor.zip" download>Windows-sthor</a> o <a href="src/sthor.zip" download>Linux-sthor</a> para arquitecturas de 64bit.
 
 
-Descomprima el archivo y abra la terminal desde la ruta descomprimida
 
 ```sh
+# descomprima el archivo y abra la terminal desde la ruta descomprimida
 # ejecutar STHOR
 root@debian:~/sthor$ ./sthor
 # verificar el aplicativo usando el folder SHORTCUTS o con el comando CURL.
