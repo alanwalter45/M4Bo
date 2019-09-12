@@ -5,9 +5,9 @@
 
 Sistema gen&eacute;rico para la gestion de almacenes.
 
-* Github page  : [sthor][1]
+* Github page  : <a href="https://alanwalter45.github.io/sthor" target="_blank">sthor</a>
 
-* Canal de youtube : [youtube.com/alanwalter45][0]
+* Canal de youtube : <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank">youtube.com/alanwalter45</a>
 
 ## Caracter&iacute;sticas
 
@@ -112,10 +112,6 @@ root@debian:~/sthor$ pm2 --version # ...PM2 opcional
 ```
 
 ## Comentarios? Preguntas? Preocupaciones?
-mensajes directos en twitter: [@alanwalter45][2]
+mensajes directos en twitter: <a href="https://twitter.com/alanwalter45" target="_blank">@alanwalter45</a>
 <br>
 email : alanwalter45@gmail.com
-
-[0]:https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-
-[1]:https://alanwalter45.github.io/sthor
-[2]:https://twitter.com/alanwalter45
