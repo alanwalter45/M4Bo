@@ -14,7 +14,7 @@
         }
 
         .container {
-            width: 41%;
+            width: 51%;
             margin-left: 5%;
             padding: 0 2.5em;
             border-left: 1px solid #f0f0f0;
@@ -24,23 +24,10 @@
         }
 
         .container2 {
-            width: 40%;
+            width: 30%;
             border-right: 1px solid #f0f0f0;
             float: left;
             padding: 0 2.5em;
-        }
-
-        .sh {
-            -webkit-print-color-adjust: exact;
-            background: linear-gradient(to right, rgb(97, 134, 255), rgb(0, 0, 0));
-            padding: 0.5em;
-            border-radius: 0.5em;
-            margin: 0em;
-        }
-
-        video {
-            width: 33%;
-            border: 1px solid black;
         }
 
         .comentario {
@@ -76,21 +63,13 @@
             color: yellow;
         }
 
-        .right {
-            float: right;
-        }
-
-        .right>p {
-            font-weight: bold;
-        }
-
 
         #header {
             position: fixed;
             left: 0;
             top: 0;
             width: 100%;
-            height: 105px;
+            height: 72px;
             padding: 0.5em;
             padding-left: 2.5em;
             background: linear-gradient(to left, #27ad23, #3fa03c);
@@ -99,18 +78,6 @@
             z-index: 1000;
             color: white;
             zoom: 0.72;
-        }
-
-        footer>p {
-            -webkit-print-color-adjust: exact;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            background-color: #e7ffc1;
-            width: 100%;
-            margin: 0;
-            padding: 0.25em;
         }
 
         p {
@@ -147,43 +114,15 @@
         }
 
         #github {
-            float: right;
-            margin-top: -27px;
             width: 180px;
             height: 125px;
-            background: #02690b;
             font-size: 1.72em;
             text-decoration: none;
-            color: white;
-            border-left: 1px solid green;
-        }
-
-        #github:hover {
-            transition: all 1s;
-            color: greenyellow;
-            border-left: 1px solid black;
-            background: linear-gradient(to bottom, #02690b, rgb(32, 165, 6));
-        }
-
-        #github::after {
-            content: "Sthor";
-            display: block;
-            text-indent: 2.9em;
-            background: white;
-            color: black;
-            font-size: 0.72em;
-        }
-
-        #github:hover::after {
-            background: yellow;
-        }
-
-        #github>img {
-            margin-left: 1em;
         }
 
         #logotipo {
-            transform: scale(1);
+            transform: scale(0.81);
+            margin-top: -17px;
         }
 
         #logotipo:hover {
@@ -210,13 +149,6 @@
             }
 
         }
-
-        @media (max-width: 490px) {
-
-            #github::after {
-                border-left: 1px solid black;
-            }
-        }
     </style>
 </head>
 
@@ -229,11 +161,6 @@
             <img id="logotipo" src="./assets/logotipo.png">
         </a>
 
-        <a id="github" href="https://github.com/alanwalter45/sthor" target="_blank">
-            <br>
-            <img src="./assets/github.png" height="50px" alt="github">
-        </a>
-
     </div>
 
     <div class="container">
@@ -244,56 +171,14 @@
         <br>
         <br>
         <br>
-        <br>
 
         <div id="icono"></div>
 
         <h2>Proyecto Sthor</h2>
-
-        <p>
-            Sistema gen&eacute;rico gratuito para la gesti&oacute;n de almacenes.
-        </p>
-
-        <h2>Licencia de software</h2>
-        <a href="./LICENSE.md">
-            <img width="100px" src="./assets/coffeeware-badge.png">
+        <a id="github" href="https://github.com/alanwalter45/sthor" target="_blank">
+            <img src="./assets/github.png" height="50px" alt="github">
         </a>
-
-        <h2>Esquema general</h2>
-
-
-        <img width="54%" src="./assets/arquitectura.png" alt="imagen de la arquitectura utilizada en el sistema.">
-
-        <br>
-        <h2>Comentarios? Preguntas? Preocupaciones?</h2>
-        mensajes directos en twitter : <a href="https://twitter.com/alanwalter45">@alanwalter45</a>
-        <br>
-        email : <a href="alanwalter45@gmail.com">alanwalter45@gmail.com</a>
-        <br>
-        youtube :
-        <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank"
-            title="ver canal en youtube">youtube/alanwalter45</a>.
-        <br>
-        <br>
-        <br>
-        <footer>
-            <p>
-
-                <a href="http://youtube.com/alanwalter45" target="_blank">@alanwalter45</a>
-
-        </footer>
-    </div>
-
-    <div class="container2">
-
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
+        Sistema de gesti&oacute;n de almacenes.
 
         <h2> Caracter&iacute;sticas Generales</h2>
 
@@ -530,12 +415,17 @@
         </ul>
 
 
-        <h2> Pantalla</h2>
-
+        <h2> Sistemas Operativos
+        </h2>
         <ul>
-            <li>Responsive / Adaptable.</li>
-            <li>Resolucion m&iacute;nima 800 x 600.</li>
-            <li>Escritorio, Portatil, Tableta , Televisor.</li>
+            <li>
+
+                Windows 7 , 8 , 10 / 64bit.
+            </li>
+            <li>
+                Debian 9, Ubuntu 17, Elementary Loki, Mint 17 / 64bit.
+
+            </li>
         </ul>
 
         <h2> Navegadores Web</h2>
@@ -554,18 +444,44 @@
             </li>
         </ul>
 
-        <h2> Sistemas Operativos
-        </h2>
+        <h2> Pantalla</h2>
+
         <ul>
-            <li>
-
-                Windows 7 , 8 , 10 / 64bit.
-            </li>
-            <li>
-                Debian 9, Ubuntu 17, Elementary Loki, Mint 17 / 64bit.
-
-            </li>
+            <li>Responsive / Adaptable. (Escritorio, Portatil, Tableta , Televisor.)</li>
+            <li>Resoluci&oacute;n recomendada 1024 x 768.</li>
         </ul>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div class="container2">
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h2>Esquema general</h2>
+
+
+        <img width="54%" src="./assets/arquitectura.png" alt="imagen de la arquitectura utilizada en el sistema.">
+
+        <br>
+        <h2>Comentarios? Preguntas? Preocupaciones?</h2>
+        mensajes directos en twitter : <a href="https://twitter.com/alanwalter45" target="_blank">@alanwalter45</a>
+        <br>
+        email : <a href="alanwalter45@gmail.com" target="_blank">alanwalter45@gmail.com</a>
+        <br>
+        youtube :
+        <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank"
+            title="ver canal en youtube">youtube/alanwalter45</a>.
+
 
         <br>
         <br>

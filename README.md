@@ -5,7 +5,7 @@
 
 Sistema gen&eacute;rico para la gesti&oacute;n de almacenes.
 
-* Github page  : <a href="https://alanwalter45.github.io/sthor" target="_blank">sthor</a>
+* Pagina de github  : <a href="https://alanwalter45.github.io/sthor" target="_blank">sthor page</a>
 
 * Canal de youtube : <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank">youtube.com/alanwalter45</a>
 
@@ -25,24 +25,6 @@ Sistema gen&eacute;rico para la gesti&oacute;n de almacenes.
                     Formato de Transferencia de Archivos JSON.
        </a>
 
-*  Editor de C&oacute;digo
-
-    * <a href="https://code.visualstudio.com" target="_blank">
-                            Visual Studio Code.</a>
-    * <a href="https://www.vim.org" target="_blank">
-                            Vim.
-          </a>
-
-* Navegador Web
-        
-    * <a href="https://www.opera.com/" target="_blank">
-                            Opera
-          </a>
-
-    * <a href="https://www.brave.com" target="_blank">
-                            Brave (Mobile)
-          </a>
-
 * Frontend
 
     * <a href="https://vuejs.org/" target="_blank">
@@ -54,7 +36,7 @@ Sistema gen&eacute;rico para la gesti&oacute;n de almacenes.
           </a>
 
     * <a href="https://buefy.org/" target="_blank">
-                            Buefy (Bulma - Css).
+                            Buefy (Bulma).
           </a>
 
 * Arquitectura de Software
@@ -85,9 +67,27 @@ Sistema gen&eacute;rico para la gesti&oacute;n de almacenes.
 
     *  Swagger - Documentaci&oacute;n.
 
+*  Editor de C&oacute;digo
+
+    * <a href="https://code.visualstudio.com" target="_blank">
+                            Visual Studio Code.</a>
+    * <a href="https://www.vim.org" target="_blank">
+                            Vim.
+          </a>
+
+* Navegador Web
+        
+    * <a href="https://www.opera.com/" target="_blank">
+                            Opera
+          </a>
+
+    * <a href="https://www.brave.com" target="_blank">
+                            Brave
+          </a>
+
 ## Instalaci&oacute;n
 
-Descarga el archivo comprimido para la plataforma que necesites : <a href="src/sthor.zip" download>Windows-sthor</a> o <a href="src/sthor.zip" download>Linux-sthor</a> para arquitecturas de 64bit.
+Descarga el archivo comprimido para la plataforma que necesites : <a href="src/sthor.zip" download>sthorWin</a> o <a href="src/sthor.zip" download>sthorLinux</a> para arquitecturas de 64bit.
 
 
 
