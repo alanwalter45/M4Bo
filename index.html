@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>STHOR</title>
     <style>
-        img {
+        img#img-arch {
             margin-top: -5px;
             margin-bottom: 12px;
         }
@@ -31,8 +31,8 @@
         }
 
         .comentario {
-            color: #adff2f;
-            font-family: monospace;
+            font-style: italic;
+            background: #eee;
         }
 
         .codigo {
@@ -120,6 +120,12 @@
             text-decoration: none;
         }
 
+        #github::after {
+            content: "Leeme Github";
+            color: black;
+            font-size: 0.7em;
+        }
+
         #logotipo {
             transform: scale(0.81);
             margin-top: -17px;
@@ -169,16 +175,19 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
 
         <div id="icono"></div>
 
         <h2>Proyecto Sthor</h2>
+        Sistema de gesti&oacute;n de almacenes.
+
+        <br>
+        <br>
+
         <a id="github" href="https://github.com/alanwalter45/sthor" target="_blank">
             <img src="./assets/github.png" height="50px" alt="github">
         </a>
-        Sistema de gesti&oacute;n de almacenes.
+
 
         <h2> Caracter&iacute;sticas Generales</h2>
 
@@ -230,7 +239,7 @@
             </li>
 
             <li>
-                Paleta de 10 Articulos favoritos.
+                Paleta de 20 Articulos favoritos.
             </li>
             <li>
 
@@ -313,7 +322,6 @@
                     </li>
                     <li>
                         Comparaci&oacute;n mensual.
-
                     </li>
                 </ul>
             </li>
@@ -337,7 +345,7 @@
                         XLSX - <b>Excel</b>.
                     </li>
                     <li>
-                        TXT - <b>Texto</b>.
+                        CSV - <b>Texto</b>.
 
                     </li>
                 </ul>
@@ -354,8 +362,7 @@
                         UEPS <b>ULTIMO EN ENTRAR PRIMERO EN SALIR</b> LIFO
                     </li>
                     <li>
-                        PP <b>PRECIO PROMEDIO</b> PRO
-
+                        PP <b>PRECIO PROMEDIO</b> PRO o PONDERADO
                     </li>
                 </ul>
             </li>
@@ -409,46 +416,52 @@
                     </li>
                 </ul>
             </li>
-            <li>
-                Incluye informaci&oacute;n de Proveedores , Receptores y Usuarios.
-            </li>
         </ul>
 
-
-        <h2> Sistemas Operativos
-        </h2>
-        <ul>
-            <li>
-
-                Windows 7 , 8 , 10 / 64bit.
-            </li>
-            <li>
-                Debian 9, Ubuntu 17, Elementary Loki, Mint 17 / 64bit.
-
-            </li>
-        </ul>
-
-        <h2> Navegadores Web</h2>
-        <ul>
-            <li>
-
-                Opera +25
-            </li>
-            <li>
-                Google Chrome +25
-
-            </li>
-            <li>
-                Firefox +25
-
-            </li>
-        </ul>
-
-        <h2> Pantalla</h2>
+        <h2>Requisitos</h2>
+        <p>Para que pueda utilizar el aplicativo su equipo deber&aacute; cumplir como m&iacute;nimo estas
+            caracter&iacute;sticas</p>
 
         <ul>
-            <li>Responsive / Adaptable. (Escritorio, Portatil, Tableta , Televisor.)</li>
-            <li>Resoluci&oacute;n recomendada 1024 x 768.</li>
+            <li>
+                <strong> Sistemas Operativos
+                </strong>
+                <ul>
+                    <li>
+
+                        Windows 7 , 8 , 10
+                    </li>
+                    <li>
+                        Debian 9, Ubuntu 17, Elementary Loki, Mint 17
+                    </li>
+                </ul>
+                <span class="comentario"> Para arquitecturas de 64 bit.</span>
+            </li>
+            <li>
+                <strong> Navegadores Web</strong>
+                <ul>
+                    <li>
+
+                        Opera
+                    </li>
+                    <li>
+                        Google Chrome
+
+                    </li>
+                    <li>
+                        Firefox
+                    </li>
+                </ul>
+
+                <span class="comentario"> Para versiones superiores a 25 </span>
+            </li>
+            <li>
+                <strong> Pantalla</strong>
+                <ul>
+                    <li>Responsive / Adaptable. (Escritorio, Portatil, Tableta , Televisor.)</li>
+                    <li>Resoluci&oacute;n recomendada 1024 x 768.</li>
+                </ul>
+            </li>
         </ul>
 
 
@@ -464,17 +477,16 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
 
         <h2>Esquema general</h2>
 
 
-        <img width="54%" src="./assets/arquitectura.png" alt="imagen de la arquitectura utilizada en el sistema.">
+        <img id="img-arch" width="54%" src="./assets/arquitectura.png"
+            alt="imagen de la arquitectura utilizada en el sistema.">
 
         <br>
         <h2>Comentarios? Preguntas? Preocupaciones?</h2>
-        mensajes directos en twitter : <a href="https://twitter.com/alanwalter45" target="_blank">@alanwalter45</a>
+        twitter : <a href="https://twitter.com/alanwalter45" target="_blank">@alanwalter45</a>
         <br>
         email : <a href="alanwalter45@gmail.com" target="_blank">alanwalter45@gmail.com</a>
         <br>

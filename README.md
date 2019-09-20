@@ -1,11 +1,9 @@
 <img src="./assets/logotipo.png">
 
 
-## Idea general del proyecto
-
 Sistema gen&eacute;rico para la gesti&oacute;n de almacenes.
 
-* Pagina de github  : <a href="https://alanwalter45.github.io/sthor" target="_blank">sthor page</a>
+* Pagina de github  : <a href="https://alanwalter45.github.io/sthor" target="_blank">caracter&iacute;sticas Sthor</a>
 
 * Canal de youtube : <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank">youtube.com/alanwalter45</a>
 
@@ -31,10 +29,6 @@ Sistema gen&eacute;rico para la gesti&oacute;n de almacenes.
                             VueJs (Javascript).
           </a>
 
-    * <a href="https://sass-lang.com/" target="_blank">
-                            Sass (Css).
-          </a>
-
     * <a href="https://buefy.org/" target="_blank">
                             Buefy (Bulma).
           </a>
@@ -54,8 +48,6 @@ Sistema gen&eacute;rico para la gesti&oacute;n de almacenes.
     * Modulos / Paquetes.
 
 * Git - Sistema de Control de Versiones.
-
-* Metodologia XP - Programaci&oacute;n Extrema.
 
 * Testing
 
@@ -85,29 +77,20 @@ Sistema gen&eacute;rico para la gesti&oacute;n de almacenes.
                             Brave
           </a>
 
-## Instalaci&oacute;n
+## Descarga
 
-Descarga el archivo comprimido para la plataforma que necesites : <a href="src/sthor.zip" download>sthorWin</a> o <a href="src/sthor.zip" download>sthorLinux</a> para arquitecturas de 64bit.
+Descarga el archivo comprimido para la plataforma que necesites : <a href="src/sthor.zip" download>sthorWin</a> o <a href="src/sthor.zip" download>sthorLinux</a> solo disponibles para arquitecturas de 64bit.
 
 
-
-```sh
-# descomprima el archivo y abra la terminal desde la ruta descomprimida
-# ejecutar STHOR
-root@debian:~/sthor$ ./sthor
-# verificar el aplicativo usando el folder SHORTCUTS o con el comando CURL.
-root@debian:~/sthor$ curl localhost:5000
-```
-
-Requisitos de sistema
 
 ```sh
-# instalacion de PM2 https://www.npmjs.com/package/pm2
-# verificar instalacion de PM2
-root@debian:~/sthor$ pm2 --version # ...PM2 opcional
+# descomprima el archivo y abra la terminal desde la ruta descomprimida y ejecute STHOR
+./sthor
+# verificar el aplicativo ingresando a un navegador y usar la direccion http://localhost:5000 
+# o la Ip que haya asignado a su equipo por Ej: http://192.168.91.1:5000
 ```
 
 ## Comentarios? Preguntas? Preocupaciones?
-mensajes directos en twitter: <a href="https://twitter.com/alanwalter45" target="_blank">@alanwalter45</a>
+twitter: <a href="https://twitter.com/alanwalter45" target="_blank">@alanwalter45</a>
 <br>
 email : alanwalter45@gmail.com
