@@ -1,9 +1,9 @@
-<img src="./assets/logotipo.png">
+<img src="./assets/logotipo.png" style="background:black; border-radius:5px;">
 
 
-Sistema gen&eacute;rico para la gesti&oacute;n de almacenes.
+Sistema para la gesti&oacute;n de almacenes.
 
-* Pagina de github  : <a href="https://alanwalter45.github.io/sthor" target="_blank">caracter&iacute;sticas Sthor</a>
+* Pagina de información  : <a href="https://alanwalter45.github.io/sthor" target="_blank">caracter&iacute;sticas M4Bo</a>
 
 * Canal de youtube : <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank">youtube.com/alanwalter45</a>
 
@@ -79,18 +79,17 @@ Sistema gen&eacute;rico para la gesti&oacute;n de almacenes.
 
 ## Descarga
 
-Descarga el archivo comprimido para la plataforma que necesites : <a href="src/sthor.zip" download>sthorWin</a> o <a href="src/sthor.zip" download>sthorLinux</a> solo disponibles para arquitecturas de 64bit.
+Descarga el archivo comprimido para la plataforma que necesites : <a href="src/M4Bo.zip" download>M4BoWin</a> o <a href="src/M4Bo.zip" download>M4BoLinux</a> solo disponibles para arquitecturas de 64bit.
 
 
 
 ```sh
 # descomprima el archivo y abra la terminal desde la ruta descomprimida y ejecute STHOR
-./sthor
-# verificar el aplicativo ingresando a un navegador y usar la direccion http://localhost:5000 
-# o la Ip que haya asignado a su equipo por Ej: http://192.168.91.1:5000
+./m4bo
+# verificar el aplicativo ingresando a un navegador y usar la direccion http://localhost:5000
 ```
 
-## Comentarios? Preguntas? Preocupaciones?
+## Contacto
 twitter: <a href="https://twitter.com/alanwalter45" target="_blank">@alanwalter45</a>
 <br>
 email : alanwalter45@gmail.com

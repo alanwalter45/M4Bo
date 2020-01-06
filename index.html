@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <title>STHOR</title>
+    <title>M4Bo</title>
     <style>
         img#img-arch {
             margin-top: -5px;
             margin-bottom: 12px;
+        }
+
+        .container,.container2{
+            margin-top:60px;
+            margin-bottom: 60px;
         }
 
         .container {
@@ -35,45 +40,15 @@
             background: #eee;
         }
 
-        .codigo {
-            color: aliceblue;
-            font-family: monospace;
-        }
-
-        #lista-usuarios-prueba {
-            margin: 0;
-            padding: 0
-        }
-
-        #lista-usuarios-prueba>li {
-            -webkit-print-color-adjust: exact;
-            background: linear-gradient(to right, #f4fff8, rgb(221, 255, 210));
-            color: black;
-            list-style: none;
-            padding: 0.5em;
-            border-radius: 0.5em;
-            border: 1px solid rgb(219, 219, 219);
-        }
-
-        #lista-usuarios-prueba>li:hover {
-            background: linear-gradient(to top, #f4fff8, rgb(221, 255, 210));
-        }
-
-        #lista-usuarios-prueba>li>a {
-            color: yellow;
-        }
-
 
         #header {
             position: fixed;
             left: 0;
             top: 0;
             width: 100%;
-            height: 72px;
+            height: 42px;
             padding: 0.5em;
-            padding-left: 2.5em;
-            background: linear-gradient(to left, #27ad23, #3fa03c);
-            border-bottom: 1px solid rgb(15, 146, 26);
+            background: linear-gradient(to left, #636363, #0d2e0c);
             box-shadow: 0 0 5px grey;
             z-index: 1000;
             color: white;
@@ -82,20 +57,6 @@
 
         p {
             text-align: justify;
-        }
-
-        .lineaH {
-            border-bottom: 1px solid #f0f0f0;
-        }
-
-        #title {
-
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            padding: 0;
-            margin: 0;
-            margin-bottom: 0;
-            text-shadow: 0 0 3px black;
-            color: white;
         }
 
         li>strong {
@@ -113,28 +74,9 @@
             display: table;
         }
 
-        #github {
-            width: 180px;
-            height: 125px;
-            font-size: 1.72em;
-            text-decoration: none;
-        }
-
-        #github::after {
-            content: "Leeme Github";
-            color: black;
-            font-size: 0.7em;
-        }
-
         #logotipo {
             transform: scale(0.81);
             margin-top: -17px;
-        }
-
-        #logotipo:hover {
-            transition: all 1s;
-            transform: scale(1.2);
-            cursor: pointer;
         }
 
         @media (max-width: 1288px) {
@@ -150,7 +92,7 @@
             }
 
             .container2 {
-                margin-top: -155px;
+                margin-top: -50px;
                 margin-left: -15px;
             }
 
@@ -161,9 +103,8 @@
 <body>
 
     <div id="header">
-        <br>
 
-        <a href="https://github.com/alanwalter45/sthor" target="_blank">
+        <a href="https://github.com/alanwalter45/m4bo" target="_blank">
             <img id="logotipo" src="./assets/logotipo.png">
         </a>
 
@@ -171,28 +112,21 @@
 
     <div class="container">
 
-
-        <br>
-        <br>
-        <br>
-
-        <div id="icono"></div>
-
-        <h2>Proyecto Sthor</h2>
+        <h2>Multi Almacenes Bolivia (M4Bo)</h2>
         Sistema de gesti&oacute;n de almacenes.
 
         <br>
-        <br>
-
-        <a id="github" href="https://github.com/alanwalter45/sthor" target="_blank">
-            <img src="./assets/github.png" height="50px" alt="github">
-        </a>
 
 
         <h2> Caracter&iacute;sticas Generales</h2>
 
         <ul>
-            <li>Icono y logotipo personalizables</li>
+            <li>Informaci&oacute;n del cliente personalizable
+                <ul>
+                    <li>logotipo</li>
+                    <li>informaci&oacute;n de la empresa</li>
+                </ul>
+            </li>
             <li>
                 Gesti&oacute;n de almac&eacute;n :
                 <ul>
@@ -203,16 +137,13 @@
                         7 usuarios <b>(en el sistema)</b>.
                     </li>
                     <li>
-                        6000 logs / registros del sistema <b>(diariamente)</b>.
+                        logs / registros del sistema <b>(diariamente)</b>.
                     </li>
                     <li>
-                        5000 articulos <b>(por almacen)</b>.
+                        articulos <b>(por almacen)</b>.
                     </li>
                     <li>
-                        3000 proveedores <b>(en el sistema)</b>.
-                    </li>
-                    <li>
-                        3000 receptores de articulos <b>(en el sistema)</b>.
+                        300 proveedores <b>(en el sistema)</b>.
                     </li>
 
                 </ul>
@@ -239,7 +170,7 @@
             </li>
 
             <li>
-                Paleta de 20 Articulos favoritos.
+                Paleta de 25 Articulos favoritos.
             </li>
             <li>
 
@@ -247,13 +178,13 @@
             </li>
             <li>
 
-                Ubicaci&oacute;n de los articulos <b>rack / secciones doble fila</b>.
+                Ubicaci&oacute;n de los articulos <b>rack / secciones de ubicaci&oacute;n</b>.
             </li>
             <li>
                 Resguardo de articulos ajenos <b>documentos de pruebas</b>.
             </li>
             <li>
-                Separar articulos por lotes <b>agrupar articulos</b>.
+                Separar articulos por lotes <b>agrupaci&oacute;n de articulos</b>.
 
             </li>
             <li>
@@ -338,17 +269,7 @@
                 </ul>
             </li>
             <li>
-                Exportaci&oacute;n de datos:
-                <ul>
-                    <li>
-
-                        XLSX - <b>Excel</b>.
-                    </li>
-                    <li>
-                        CSV - <b>Texto</b>.
-
-                    </li>
-                </ul>
+                Exportaci&oacute;n de datos XLSX - <b>Excel</b>.
             </li>
             <li>
                 Metodos de inventario:
@@ -437,6 +358,7 @@
                 </ul>
                 <span class="comentario"> Para arquitecturas de 64 bit.</span>
             </li>
+            <br>
             <li>
                 <strong> Navegadores Web</strong>
                 <ul>
@@ -446,46 +368,33 @@
                     </li>
                     <li>
                         Google Chrome
-
-                    </li>
-                    <li>
-                        Firefox
                     </li>
                 </ul>
 
                 <span class="comentario"> Para versiones superiores a 25 </span>
             </li>
+            <br>
             <li>
                 <strong> Pantalla</strong>
                 <ul>
                     <li>Responsive / Adaptable. (Escritorio, Portatil, Tableta , Televisor.)</li>
-                    <li>Resoluci&oacute;n recomendada 1024 x 768.</li>
+                    <li>Resoluci&oacute;n minima recomendada 1024 x 768.</li>
                 </ul>
             </li>
         </ul>
 
-
-        <br>
-        <br>
-        <br>
-        <br>
     </div>
 
     <div class="container2">
 
-
-        <br>
-        <br>
-        <br>
-
-        <h2>Esquema general</h2>
+        <h2>Aquitectura b&aacute;sica del sistema</h2>
 
 
         <img id="img-arch" width="54%" src="./assets/arquitectura.png"
             alt="imagen de la arquitectura utilizada en el sistema.">
 
         <br>
-        <h2>Comentarios? Preguntas? Preocupaciones?</h2>
+        <h2>Contacto</h2>
         twitter : <a href="https://twitter.com/alanwalter45" target="_blank">@alanwalter45</a>
         <br>
         email : <a href="alanwalter45@gmail.com" target="_blank">alanwalter45@gmail.com</a>
@@ -493,12 +402,6 @@
         youtube :
         <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank"
             title="ver canal en youtube">youtube/alanwalter45</a>.
-
-
-        <br>
-        <br>
-        <br>
-        <br>
 
     </div>
 
