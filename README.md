@@ -3,7 +3,7 @@
 
 Sistema para la gesti&oacute;n de almacenes.
 
-* Pagina de información  : <a href="https://alanwalter45.github.io/sthor" target="_blank">caracter&iacute;sticas M4Bo</a>
+* Pagina de información  : <a href="https://alanwalter45.github.io/M4Bo" target="_blank">caracter&iacute;sticas M4Bo</a>
 
 * Canal de youtube : <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank">youtube.com/alanwalter45</a>
 
