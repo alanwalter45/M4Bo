@@ -1,4 +1,4 @@
-<img src="./assets/logotipo.png" style="background:black; border-radius:5px;">
+<img src="./assets/logotipo2.png">
 
 
 Sistema para la gesti&oacute;n de almacenes.
