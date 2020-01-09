@@ -3,6 +3,11 @@
 
 Sistema para la gesti&oacute;n de almacenes.
 
+## Aquitectura b&aacute;sica del sistema
+
+<img id="img-arch" width="60%" src="./assets/arquitectura.png"
+            alt="imagen de la arquitectura utilizada en el sistema.">
+
 * Pagina de información  : <a href="https://alanwalter45.github.io/M4Bo" target="_blank">caracter&iacute;sticas M4Bo</a>
 
 * Canal de youtube : <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank">youtube.com/alanwalter45</a>
@@ -57,7 +62,7 @@ Sistema para la gesti&oacute;n de almacenes.
 
     *  Xunit framework de prueba.
 
-    *  Swagger - Documentaci&oacute;n.
+    *  Swagger - Documentacion de API.
 
 *  Editor de C&oacute;digo
 
@@ -84,7 +89,7 @@ Descarga el archivo comprimido para la plataforma que necesites : <a href="src/M
 
 
 ```sh
-# descomprima el archivo y abra la terminal desde la ruta descomprimida y ejecute STHOR
+# descomprima el archivo y abra la terminal desde la ruta descomprimida y ejecute M4Bo
 ./m4bo
 # verificar el aplicativo ingresando a un navegador y usar la direccion http://localhost:5000
 ```
