@@ -84,14 +84,14 @@ Sistema para la gesti&oacute;n de almacenes.
 
 ## Descarga
 
-Descarga el archivo comprimido para la plataforma que necesites : <a href="src/M4Bo.zip" download>M4BoWin</a> o <a href="src/M4Bo.zip" download>M4BoLinux</a> solo disponibles para arquitecturas de 64bit.
+Descarga el archivo comprimido para la plataforma que necesites : <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN" download>M4Bo google drive</a>
 
 
 
 ```sh
-# descomprima el archivo y abra la terminal desde la ruta descomprimida y ejecute M4Bo
-./m4bo
+# descomprima el archivo y abra la terminal desde la ruta descomprimida y ejecute M4Bo 
 # verificar el aplicativo ingresando a un navegador y usar la direccion http://localhost:5000
+~> ./m4bo
 ```
 
 ## Contacto
