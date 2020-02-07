@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <title>Multi 4lmacenes Bolivia</title>
+    <title>Multi Almacenes Bolivia M4Bo.</title>
     <style>
-        img#img-arch {
-            margin-top: -5px;
+        img.img-arch {
+            margin-top: 5px;
             margin-bottom: 12px;
+            border: 1px solid black;
+            width: 100%;
         }
 
         .container,
@@ -25,7 +27,6 @@
             padding: 0 2.5em;
             border-left: 1px solid #f0f0f0;
             border-right: 1px solid #f0f0f0;
-
             float: left;
         }
 
@@ -49,35 +50,24 @@
             width: 100%;
             height: 51px;
             padding: 0em;
-            background: linear-gradient(to left, #636363, #0d2e0c);
+            background: linear-gradient(to left, #636363, #0c1f2e);
             box-shadow: 0 0 5px grey;
             z-index: 1000;
             color: white;
             zoom: 0.72;
         }
 
+        b {
+            font-style: italic;
+            font-weight: bolder;
+        }
+
         p {
             text-align: justify;
         }
 
-        li>strong {
-            color: rgb(0, 0, 0);
-        }
-
-        li>p>a {
-            color: black;
-            font-weight: bold;
-        }
-
-        .clearfix {
-            content: "";
-            clear: both;
-            display: table;
-        }
-
         #logotipo {
             height: 51px;
-            background: black;
         }
 
         @media (max-width: 1288px) {
@@ -106,14 +96,14 @@
     <div id="header">
 
         <a href="https://github.com/alanwalter45/M4Bo" target="_blank">
-            <img id="logotipo" src="./assets/logotipo.png">
+            <img id="logotipo" src="./assets/logotipo2.png">
         </a>
 
     </div>
 
     <div class="container">
 
-        <h2>Multi Almacenes Bolivia - M4Bo</h2>
+        <h2>Multi Almacenes Bolivia</h2>
         Sistema para la gestión de almacenes. (ver más detalles <a href="https://github.com/alanwalter45/M4Bo"
             target="_blank">aquí</a>)
 
@@ -165,9 +155,6 @@
                 </ul>
             </li>
             <li>
-                Resguardo de articulos ajenos.
-            </li>
-            <li>
                 Tipos de documentos utilizados en los movimientos de articulos.
             </li>
             <li>
@@ -180,28 +167,29 @@
                 Base de Datos Sqlite <b>(sin configuración y portable)</b>.
             </li>
             <li>
-                Frontend VueJs <b>(vista/ capa de usuario)</b>.
-
+                Frontend VueJs <b>(capa de usuario - vista)</b>.
             </li>
             <li>
-                Autenticación basada en Tokens <b>(JWT).</b>
-
+                backend .Net Core <b>(Interfaz de programación de aplicaciones - API)</b>.
             </li>
             <li>
-                Operadores / Usuarios :
+                Autenticación basada en Tokens <b>(Json Web Tokens - JWT).</b>
+            </li>
+            <li>
+                Usuarios :
                 <ul>
                     <li>
-                        1 Usuario por defecto (Administrador).
+                        1 Usuario por defecto <b>(Administrador)</b>.
 
                     </li>
                     <li>
                         6 Usuarios gestionables por un usuario administrador.
                     </li>
                     <li>
-                        Tipos de usuarios <b>Administrador y Operador</b>
+                        Tipos de usuarios <b>(Administrador y Operador)</b>
                     </li>
                     <li>
-                        Contraseñas modificables pero no recordables (Hash Key).
+                        Contraseñas modificables pero no recordables.
                     </li>
                 </ul>
             </li>
@@ -236,15 +224,14 @@
                 Metodos de inventario :
                 <ul>
                     <li>
-
-                        PEPS <b>PRIMERO EN ENTRAR PRIMERO EN SALIR</b> FIFO
+                        PEPS <b>(Primero en entrar Primero en salir)</b> FIFO.
                     </li>
                     <li>
 
-                        UEPS <b>ULTIMO EN ENTRAR PRIMERO EN SALIR</b> LIFO
+                        UEPS <b>(Último en entrar Primero en salir)</b> LIFO.
                     </li>
                     <li>
-                        PP <b>PRECIO PROMEDIO</b> PRO o PONDERADO
+                        PP <b>(Precio Promedio)</b> PRO.
                     </li>
                 </ul>
             </li>
@@ -254,7 +241,6 @@
                 Consultas :
                 <ul>
                     <li>
-
                         Por proveedor.
                     </li>
                     <li>
@@ -262,7 +248,6 @@
 
                     </li>
                     <li>
-
                         Por almacén.
                     </li>
                 </ul>
@@ -285,11 +270,11 @@
                 Temas :
                 <ul>
                     <li>
-                        Light / Iluminado.
+                        Iluminado.
 
                     </li>
                     <li>
-                        Dark / Oscuro.
+                        Oscuro.
                     </li>
                 </ul>
             </li>
@@ -297,8 +282,9 @@
 
         <h2>Descarga</h2>
 
-        App <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN" target="_blank">M4Bo</a>
-        <span class="comentario">La versión 0.0.2 disponible el 09 de Enero de 2020</span>
+        Descarga M4Bo <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN"
+            target="_blank">aquí</a>
+        <span class="comentario">La versión 0.0.2 disponible el 09 de Febrero de 2020</span>
         <br>
 
         <h2>Requisitos</h2>
@@ -306,7 +292,7 @@
 
         <ul>
             <li>
-                <strong> Sistemas Operativos
+                <strong> Sistema Operativo
                 </strong>
                 <ul>
                     <li>
@@ -319,7 +305,7 @@
             </li>
             <br>
             <li>
-                <strong> Navegadores Web</strong>
+                <strong> Navegador Web</strong>
                 <ul>
                     <li>
                         Google Chrome v25+
@@ -358,14 +344,15 @@
 
         <h2>Capturas</h2>
 
-        <img id="img-arch" width="60%" src="./assets/autenticacion.png"
-            alt="imagen de la arquitectura utilizada en el sistema." style="border: 1px solid black;">
+        <strong>Autenticación</strong>
 
-        <img id="img-arch" width="60%" src="./assets/ajustes.png" alt="ajustesel sistema."
-            style="border: 1px solid black;">
+        <img class="img-arch" src="./assets/autenticacion.png" alt="imagen de la arquitectura utilizada en el sistema.">
 
-        <img id="img-arch" width="60%" src="./assets/ayuda.png" alt="ayuda del sistema."
-            style="border: 1px solid black;">
+        <strong>Ajustes</strong>
+        <img class="img-arch" src="./assets/ajustes.png" alt="ajustesel sistema.">
+
+        <strong>Ayuda</strong>
+        <img class="img-arch" src="./assets/ayuda.png" alt="ayuda del sistema.">
 
 
         <br>
