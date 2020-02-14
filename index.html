@@ -42,7 +42,6 @@
             font-style: italic;
         }
 
-
         #header {
             position: fixed;
             left: 0;
@@ -68,6 +67,24 @@
 
         #logotipo {
             height: 51px;
+        }
+
+        .cajita {
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .green {
+            background-color: green;
         }
 
         @media (max-width: 1288px) {
@@ -96,7 +113,7 @@
     <div id="header">
 
         <a href="https://github.com/alanwalter45/M4Bo" target="_blank">
-            <img id="logotipo" src="./assets/logotipo2.png">
+            <img id="logotipo" src="./assets/logotipo.png">
         </a>
 
     </div>
@@ -104,8 +121,7 @@
     <div class="container">
 
         <h2>Multi Almacenes Bolivia</h2>
-        Sistema para la gestión de almacenes. (ver más detalles <a href="https://github.com/alanwalter45/M4Bo"
-            target="_blank">aquí</a>)
+        Sistema gratuito para la gestión de almacenes.
 
         <br>
 
@@ -140,16 +156,18 @@
                 </ul>
             </li>
             <li>
-                Alerta por colores seg&uacute;n cantidad en stock :
+                Colores según cantidad en stock :
                 <ul>
                     <li>
+                        <div class="cajita red"></div>
                         ROJO <b>(sin stock.)</b>
                     </li>
                     <li>
-
+                        <div class="cajita yellow"></div>
                         AMARILLO <b>(stock mínimo.)</b>
                     </li>
                     <li>
+                        <div class="cajita green"></div>
                         VERDE <b>(stock suficiente.)</b>
                     </li>
                 </ul>
@@ -158,9 +176,9 @@
                 Tipos de documentos utilizados en los movimientos de articulos.
             </li>
             <li>
-                Parametros del sistema configurable <b>(archivos de configuración cliente y servidor)</b>
-                en formatos : YML , JS , JSON
-
+                Parametros del sistema configurable <br>
+                <b>(archivos de configuración cliente y servidor)</b>
+                en formatos : YML , JS , JSON.
             </li>
             <li>
 
@@ -207,14 +225,11 @@
             </li>
 
             <li>
-
                 Reportes :
                 <ul>
                     <li>
-
                         PDF formato de impresión.
                     </li>
-
                 </ul>
             </li>
             <li>
@@ -224,20 +239,18 @@
                 Metodos de inventario :
                 <ul>
                     <li>
-                        PEPS <b>(Primero en entrar Primero en salir)</b> FIFO.
+                        PEPS <b>(Primero en entrar Primero en salir)</b>.
                     </li>
                     <li>
-
-                        UEPS <b>(Último en entrar Primero en salir)</b> LIFO.
+                        UEPS <b>(Último en entrar Primero en salir)</b>.
                     </li>
                     <li>
-                        PP <b>(Precio Promedio)</b> PRO.
+                        PP <b>(Precio Promedio)</b>.
                     </li>
                 </ul>
             </li>
 
             <li>
-
                 Consultas :
                 <ul>
                     <li>
@@ -258,34 +271,19 @@
             <li>
                 Idiomas :
                 <ul>
-                    <li>
-                        Español.
-
-                    </li>
+                    <li>Español.</li>
                     <li>Ingles.</li>
-                    <li>Portugues.</li>
                 </ul>
             </li>
             <li>
                 Temas :
                 <ul>
-                    <li>
-                        Iluminado.
-
-                    </li>
-                    <li>
-                        Oscuro.
-                    </li>
+                    <li>Iluminado.</li>
+                    <li>Oscuro.</li>
                 </ul>
             </li>
         </ul>
 
-        <h2>Descarga</h2>
-
-        Descarga M4Bo <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN"
-            target="_blank">aquí</a>
-        <span class="comentario">La versión 0.0.2 disponible el 09 de Febrero de 2020</span>
-        <br>
 
         <h2>Requisitos</h2>
         <p>Para utilizar el aplicativo su equipo deberá cumplir como mínimo las siguientes características</p>
@@ -338,6 +336,12 @@
             </li>
         </ul>
 
+        <h2>Descarga</h2>
+
+        Descarga el programa M4Bo <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN"
+            target="_blank">aquí</a>
+        <span class="comentario"><br>versión 0.0.3 disponible el 17 de Febrero de 2020</span><br>
+
     </div>
 
     <div class="container2">
@@ -347,12 +351,13 @@
         <strong>Autenticación</strong>
 
         <img class="img-arch" src="./assets/autenticacion.png" alt="imagen de la arquitectura utilizada en el sistema.">
-
         <strong>Ajustes</strong>
         <img class="img-arch" src="./assets/ajustes.png" alt="ajustesel sistema.">
 
         <strong>Ayuda</strong>
         <img class="img-arch" src="./assets/ayuda.png" alt="ayuda del sistema.">
+
+        ver más detalles <a href="https://github.com/alanwalter45/M4Bo" target="_blank">aquí</a>.
 
 
         <br>

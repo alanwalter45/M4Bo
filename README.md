@@ -1,42 +1,33 @@
-<img src="./assets/logotipo2.png">
+<img src="./assets/logotipo.png">
 
+## Muti Almacenes Bolivia
 
-Sistema para la gesti&oacute;n de almacenes.
+Sistema gratuito para la gestión de almacenes.
 
-## Aquitectura b&aacute;sica del sistema
+* Pagina de información  : <a href="https://alanwalter45.github.io/M4Bo" target="_blank">características M4Bo</a>
+
+* Canal de youtube : <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank">youtube.com/alanwalter45</a>
+
+## Aquitectura básica del sistema
 
 <img id="img-arch" width="60%" src="./assets/arquitectura.png"
             alt="imagen de la arquitectura utilizada en el sistema.">
 
-* Pagina de información  : <a href="https://alanwalter45.github.io/M4Bo" target="_blank">caracter&iacute;sticas M4Bo</a>
-
-* Canal de youtube : <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank">youtube.com/alanwalter45</a>
-
-## Caracter&iacute;sticas
+## Características
 
 * Licencia de software : <a href="./LICENSE.md">coffeeware</a>.
 
-*  <a href="https://dotnet.microsoft.com" target="_blank">
-                    Plataforma de desarrollo .Net Core
-       </a>
+* Plataforma de desarrollo .Net Core
 
-*  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/" target="_blank">
-                    Lenguaje de Programaci&oacute;n C#.
-       </a>
+* Lenguaje de Programación C#.
 
-*  <a href="https://www.json.org/" target="_blank">
-                    Formato de Transferencia de Archivos JSON.
-       </a>
+* Formato de Transferencia de Archivos JSON.
 
 * Frontend
 
-    * <a href="https://vuejs.org/" target="_blank">
-                            VueJs (Javascript).
-          </a>
+    * VueJs (Javascript).
 
-    * <a href="https://buefy.org/" target="_blank">
-                            Buefy (Bulma).
-          </a>
+    * Buefy (Bulma).
 
 * Arquitectura de Software
 
@@ -58,40 +49,34 @@ Sistema para la gesti&oacute;n de almacenes.
 
     *  HTTP - Postman (test de peticiones http).
 
-    *  Jasmine (test de integraci&oacute;n, unitarios).
+    *  Jasmine (test de integración, unitarios).
 
     *  Xunit framework de prueba.
 
     *  Swagger - Documentacion de API.
 
-*  Editor de C&oacute;digo
+*  Editor de Código
 
-    * <a href="https://code.visualstudio.com" target="_blank">
-                            Visual Studio Code.</a>
-    * <a href="https://www.vim.org" target="_blank">
-                            Vim.
-          </a>
+    * Visual Studio Code.
+    * Vim.
 
 * Navegador Web
         
-    * <a href="https://www.opera.com/" target="_blank">
-                            Opera
-          </a>
+    * Opera
 
-    * <a href="https://www.brave.com" target="_blank">
-                            Brave
-          </a>
+    * Brave
 
 ## Descarga
 
-Descarga el archivo comprimido para la plataforma que necesites : <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN" download>M4Bo google drive</a>
+Descarga el programa M4Bo <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN" download>aquí.</a>
 
 
-
-```sh
-# descomprima el archivo y abra la terminal desde la ruta descomprimida y ejecute M4Bo 
-# verificar el aplicativo ingresando a un navegador y usar la direccion http://localhost:5000
-~> ./m4bo
+```bash
+# Descomprima el programa
+$ unzip m4bo.zip
+# Ejecute M4Bo
+$ ./m4bo 
+# Ingrese al navegador con la dirección http://0.0.0.0:5000
 ```
 
 ## Contacto
