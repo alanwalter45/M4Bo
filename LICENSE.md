@@ -1,4 +1,4 @@
-**"LICENCIA COFFEEWARE" (Revision 2):**
+**"LICENCIA COFFEEWARE"**
 
 <[@alanwalter45][1]> escribió este código. Mientras retengas este aviso puedes hacer lo que desees con estas cosas. Si nos reunimos algún día, y piensas que esto vale la pena, me puedes invitar un café a cambio.
 

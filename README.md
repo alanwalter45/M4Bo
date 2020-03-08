@@ -15,7 +15,7 @@ Sistema gratuito para la gestión de almacenes.
 
 ## Características
 
-* Licencia de software : <a href="./LICENSE.md">coffeeware</a>.
+* Licencia de software <a href="./LICENSE.md">coffeeware</a>.
 
 * Plataforma de desarrollo .Net Core
 
@@ -55,11 +55,6 @@ Sistema gratuito para la gestión de almacenes.
 
     *  Swagger - Documentacion de API.
 
-*  Editor de Código
-
-    * Visual Studio Code.
-    * Vim.
-
 * Navegador Web
         
     * Opera
@@ -68,7 +63,7 @@ Sistema gratuito para la gestión de almacenes.
 
 ## Descarga
 
-Descarga el programa M4Bo <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN" download>aquí.</a>
+Descarga M4Bo <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN" download>aquí.</a> versión 0.0.5
 
 
 ```bash
@@ -80,6 +75,6 @@ $ ./m4bo
 ```
 
 ## Contacto
-twitter: <a href="https://twitter.com/alanwalter45" target="_blank">@alanwalter45</a>
+Twitter: <a href="https://twitter.com/alanwalter45" target="_blank">@alanwalter45</a>
 <br>
-email : alanwalter45@gmail.com
+Email : alanwalter45@gmail.com
