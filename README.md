@@ -4,9 +4,9 @@
 
 Sistema gratuito para la gestión de almacenes.
 
-* Pagina de información  : <a href="https://alanwalter45.github.io/M4Bo" target="_blank">características M4Bo</a>
+* <a href="https://alanwalter45.github.io/M4Bo" target="_blank">Caracteristicas generales</a>
 
-* Canal de youtube : <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank">youtube.com/alanwalter45</a>
+* <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank">Canal de youtube</a>
 
 ## Aquitectura básica del sistema
 
@@ -43,27 +43,15 @@ Sistema gratuito para la gestión de almacenes.
 
     * Modulos / Paquetes.
 
-* Git - Sistema de Control de Versiones.
-
-* Testing
-
-    *  HTTP - Postman (test de peticiones http).
-
-    *  Jasmine (test de integración, unitarios).
-
-    *  Xunit framework de prueba.
-
-    *  Swagger - Documentacion de API.
-
 
 ## Descarga
 
-Descarga M4Bo [versión 0.0.6] <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN" download>aquí.</a> 
+Descarga M4Bo [versión 0.0.6] <a href="https://github.com/alanwalter45/M4Bo/releases/download/v0.0.6/m4bo-linux-v0.0.6.zip" download>aquí.</a> 
 
 
 ```bash
-# Descomprima el programa
-$ unzip m4bo.zip
+# Descomprime el programa
+$ unzip m4bo-linux-v0.0.6.zip
 # Ejecute el archivo m4bo e ingrese a la siguiente dirección http://localhost:5000
 $ ./m4bo 
 ```
