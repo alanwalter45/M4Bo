@@ -1,6 +1,6 @@
 <img src="./assets/logotipo.png">
 
-## Muti Almacenes Bolivia
+## Mutialmacenes Bolivia
 
 Sistema gratuito para la gestión de almacenes.
 
@@ -55,23 +55,17 @@ Sistema gratuito para la gestión de almacenes.
 
     *  Swagger - Documentacion de API.
 
-* Navegador Web
-        
-    * Opera
-
-    * Brave
 
 ## Descarga
 
-Descarga M4Bo <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN" download>aquí.</a> versión 0.0.5
+Descarga M4Bo [versión 0.0.6] <a href="https://drive.google.com/open?id=1JZs21JtXQI7JQyo3_3ecVXooKnEJkOhN" download>aquí.</a> 
 
 
 ```bash
 # Descomprima el programa
 $ unzip m4bo.zip
-# Ejecute M4Bo
+# Ejecute el archivo m4bo e ingrese a la siguiente dirección http://localhost:5000
 $ ./m4bo 
-# Ingrese al navegador con la dirección http://0.0.0.0:5000
 ```
 
 ## Contacto
