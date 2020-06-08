@@ -19,12 +19,12 @@ Sistema gratuito para la gestión de almacenes.
 
 ## Descarga
 
-Descarga M4Bo  <a href="https://github.com/alanwalter45/M4Bo/releases/download/v0.1.0/m4bo-linux-v0.1.0.zip" download>versión 0.1.0</a> 
+Descarga para Linux  <a href="https://github.com/alanwalter45/M4Bo/releases/download/v0.2.0/m4bo-linux-v0.2.0.zip" download>M4Bo versión 0.2.0</a> 
 
 
 ```bash
 # Descomprime el programa
-$ unzip m4bo-linux-v0.1.0.zip
+$ unzip m4bo-linux-v0.2.0.zip
 # Ejecute el archivo m4bo e ingrese a la siguiente dirección http://localhost:5000
 $ ./m4bo
 # si utilizas windows haz doble click sobre el archivo "m4bo". 
