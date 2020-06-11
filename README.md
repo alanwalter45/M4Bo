@@ -2,40 +2,34 @@
 
 ## Mutialmacenes Bolivia
 
-Sistema gratuito para la gestión de almacenes.
+Sistema gratuito para la gestión de almacenes bajo licencia
+<a href="./LICENSE.md">coffeeware</a>.
 
-* <a href="./LICENSE.md">Licencia de software [coffeeware]</a>
+Ver características generales <a href="https://alanwalter45.github.io/M4Bo" target="_blank">aquí</a>.
 
-* <a href="https://alanwalter45.github.io/M4Bo" target="_blank">Características generales</a>
-
-* <a href="https://www.youtube.com/playlist?list=PLCGw6KEqh5zEhAPkQbcocWWxXfl_tbgD-" target="_blank">Canal de youtube</a>
-
-## Aquitectura básica del sistema
+## Aquitectura básica
 
 <img id="img-arch" width="60%" src="./assets/arquitectura.png"
             alt="imagen de la arquitectura utilizada en el sistema.">
 
-
-
 ## Descarga
 
-Descarga para Linux  <a href="https://github.com/alanwalter45/M4Bo/releases/download/v0.2.0/m4bo-linux-v0.2.0.zip" download>M4Bo versión 0.2.0</a> 
-
+Descarga el aplicativo del apartado de releases y sigue los siguientes pasos :
 
 ```bash
 # Descomprime el programa
-$ unzip m4bo-linux-v0.2.0.zip
-# Ejecute el archivo m4bo e ingrese a la siguiente dirección http://localhost:5000
+$ unzip m4bo-linux-v0.3.0.zip
+# Ejecuta el archivo m4bo
 $ ./m4bo
-# si utilizas windows haz doble click sobre el archivo "m4bo". 
+# Ingresa a la siguiente dirección http://localhost:5000
 ```
-
-> NOTA : El aplicativo no requiere ninguna instalación extra.
-
 
 ## Contacto
 Twitter: <a href="https://twitter.com/alanwalter45" target="_blank">@alanwalter45</a>
 <br>
 Email : alanwalter45@gmail.com
+<br>
+Youtube : <a href="https://www.youtube.com/alanwalter45" target="_blank">alanwalter45</a>
+
 
 Hecho con &#10084; en Bolivia
