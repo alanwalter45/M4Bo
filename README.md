@@ -7,7 +7,7 @@ Sistema gratuito para la gestión de almacenes disponible bajo licencia
 
 ### Descarga
 
-El aplicativo se encuentra en el apartado de releases, una vez descargado sigue los siguientes pasos :
+El aplicativo se encuentra en releases, una vez descargado sigue los siguientes pasos :
 
 ```sh
 $ # 1) Descomprime "m4bo-linux-x.zip"
